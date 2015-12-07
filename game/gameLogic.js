@@ -20,17 +20,17 @@ A3D.config = {
 
       actionButton: 'leftmouse',
       playerSettings : {
-        meshName: 'CircleMan',
+        meshName: 'bawana',
         rootUrl: '/models/',
-        file:'Circle_man.babylon',
+        file:'bannana_with_bones.babylon',
         spawnPoint : 'InitialSpawn',
         jumpForce : 4,
         jumpAccel : 2,
         animationsSetup : [
           {
             name : 'walk',
-            start : 20,
-            end : 59,
+            start : 0,
+            end : 20,
             options : {
               ratio: 2.4
             }
@@ -64,19 +64,19 @@ A3D.config = {
           }
         ],
         rotationValues : {
-          left : 3,
-          right : 0
+          left : 1.5,
+          right : -1.5
         },
 
         scale : {
-          x: 3,
-          y: 3,
-          z : 3
+          x: 1,
+          y: 1,
+          z : 1
         },
         boundsOffset : {
           z : -2,
           x : -2,
-          y: 8.5
+          y: 13
         }
 
       },
